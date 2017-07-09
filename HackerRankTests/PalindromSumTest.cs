@@ -14,7 +14,7 @@ namespace HackerRankTests
             var n = 13;
             var s = "aaaaabbbbaaaa";
 
-            var ps = new PalindromSum();
+            var ps = new MaxPalindrom();
             var res = ps.GetPolindromLength(s, n);
             var stubList = new List<int> { 12, 12, 10, 8, 8, 9, 11, 13, 11, 9, 8, 8, 10};
 
@@ -28,7 +28,7 @@ namespace HackerRankTests
             var n = 7;
             var s = "cacbbba";
 
-            var ps = new PalindromSum();
+            var ps = new MaxPalindrom();
             var res = ps.GetPolindromLength(s, n);
 
             var stubList = new List<int> { 3, 3, 3, 3, 3, 3, 3 };
@@ -43,7 +43,7 @@ namespace HackerRankTests
             var n = 12;
             var s = "eededdeedede";
 
-            var ps = new PalindromSum();
+            var ps = new MaxPalindrom();
             var res = ps.GetPolindromLength(s, n);
 
             var stubList = new List<int> { 5, 7, 7, 7, 7, 9, 9, 9, 9, 7, 5, 4 };

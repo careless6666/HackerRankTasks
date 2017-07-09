@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace HackerRank
 {
-    public class PalindromSum
+    public class MaxPalindrom
     {
         public int[] GetPolindromLength(string s, int n)
         {
