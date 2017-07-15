@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace HackerRank
+namespace HackerRank.Strings
 {
     public class MaxPalindrom
     {

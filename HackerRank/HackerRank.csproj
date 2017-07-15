@@ -43,9 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MaxPalindrom.cs" />
+    <Compile Include="SieveEratosfen.cs" />
+    <Compile Include="Strings\MaxPalindrom.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Strings\SuperReducedString.cs" />
     <Compile Include="TimeConversion.cs" />
   </ItemGroup>
   <ItemGroup>

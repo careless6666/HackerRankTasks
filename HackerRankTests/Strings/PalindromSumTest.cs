@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using HackerRank;
+using HackerRank.Strings;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace HackerRankTests
+namespace HackerRankTests.Strings
 {
     [TestClass]
     public class PalindromSumTest
