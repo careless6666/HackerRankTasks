@@ -13,13 +13,22 @@ namespace HackerRank.Medium
         {
             var counter = 0;
 
+            Array.Sort(a);
+
             for (var i = 0; i < a.Length; i++)
             {
                 for (var j = i + 1; j < a.Length; j++)
                 {
-                    if (Math.Abs(a[i] - a[j]) == k)
+                    if (a[i] + k == a[j])
+                    {
                         counter++;
+                        break;
+                    } else if (a[j] - a[i] > k)
+                    {
+                        break;
+                    }
                 }
+                    
             }
             return counter;
         }
