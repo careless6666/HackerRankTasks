@@ -15,12 +15,9 @@ namespace HackerRank.Medium
 
             for (var i = 0; i < a.Length; i++)
             {
-                for (var j = i; j < a.Length; j++)
+                for (var j = i + 1; j < a.Length; j++)
                 {
-                    if(i == j)
-                        continue;
-
-                    if (Math.Abs(a[i] - a[j]) == 2)
+                    if (Math.Abs(a[i] - a[j]) == k)
                         counter++;
                 }
             }
