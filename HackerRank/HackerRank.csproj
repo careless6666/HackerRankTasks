@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Medium\PairsWithDiff.cs" />
     <Compile Include="SieveEratosfen.cs" />
     <Compile Include="Strings\MaxPalindrom.cs" />
     <Compile Include="Program.cs" />
