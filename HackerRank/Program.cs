@@ -25,7 +25,7 @@ namespace HackerRank
         private static void Repeat(long divider, long[] a)
         {
             for (int i = 0; i <= a.Length; i++)
-                MaximumSubarraySum.CalcMax(a, i, divider);
+                MaximumSubarraySum.CalcMax(a, divider);
         }
         
     }
