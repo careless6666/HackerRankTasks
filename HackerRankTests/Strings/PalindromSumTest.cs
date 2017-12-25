@@ -9,7 +9,7 @@ namespace HackerRankTests.Strings
     public class PalindromSumTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestPalindromSum1()
         {
             var n = 13;
             var s = "aaaaabbbbaaaa";
@@ -23,7 +23,7 @@ namespace HackerRankTests.Strings
         }
 
         [TestMethod]
-        public void TestMethod2()
+        public void TestPalindromSum2()
         {
             var n = 7;
             var s = "cacbbba";
@@ -38,7 +38,7 @@ namespace HackerRankTests.Strings
         }
 
         [TestMethod]
-        public void TestMethod3()
+        public void TestPalindromSum3()
         {
             var n = 12;
             var s = "eededdeedede";

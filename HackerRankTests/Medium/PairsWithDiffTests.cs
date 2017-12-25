@@ -12,7 +12,7 @@ namespace HackerRankTests.Medium
     public class PairsWithDiffTests
     {
         [TestMethod]
-        public void TestGet()
+        public void TestPairsWithDiffGet()
         {
             var res = PairsWithDiff.Get(new[] {1, 5, 3, 4, 2}, 2);
             Assert.AreEqual(3, res);
