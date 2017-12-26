@@ -16,6 +16,12 @@
     <Filter Include="Hard">
       <UniqueIdentifier>{7314aa3f-87d9-46ff-990e-1d8b3f2fae08}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Hard">
+      <UniqueIdentifier>{5fb8c519-6f6f-4c27-9d1c-ade407ef4d8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Hard">
+      <UniqueIdentifier>{7c579035-2ccc-4113-8ccf-5de294c0dc7e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -24,6 +30,9 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="MaximumSubarraySum.h">
+      <Filter>Header Files\Hard</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -31,6 +40,9 @@
     </ClCompile>
     <ClCompile Include="MaximumSubarraySumTests.cpp">
       <Filter>Hard</Filter>
+    </ClCompile>
+    <ClCompile Include="MaximumSubarraySum.cpp">
+      <Filter>Source Files\Hard</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -1,6 +1,8 @@
 #pragma once
 
-class MaximumSubarraySum
+#define MaximumSubarraySum_Api
+
+class __declspec(dllexport) MaximumSubarraySum
 {
 public:
 	MaximumSubarraySum();

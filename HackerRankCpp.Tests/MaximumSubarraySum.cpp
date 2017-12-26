@@ -17,7 +17,7 @@ long long MaximumSubarraySum::Solve(long long n, long long m, long long * a)
 	set<long long> S;
 	S.insert(0);
 	for (int i = 1; i <= n; i++) {
-		x = a[i];
+		x = a[i-1];
 		prefix = (prefix + x) % m;
 		maxim = max(maxim, prefix);
 		set<long long>::iterator  it = S.lower_bound(prefix + 1);

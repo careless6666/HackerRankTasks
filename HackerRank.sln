@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank", "HackerRank\Ha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRankTests", "HackerRankTests\HackerRankTests.csproj", "{5DADB039-61A9-408C-9CB1-316063A510B2}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HackerRankCpp", "HackerRankCpp\HackerRankCpp.vcxproj", "{4EDE5ED0-F9B2-4DC4-95E2-22A72F90BC8E}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HackerRankCpp.Tests", "HackerRankCpp.Tests\HackerRankCpp.Tests.vcxproj", "{78561ADB-6882-4C8B-824E-B9438BC8E28E}"
 EndProject
 Global
@@ -45,16 +43,6 @@ Global
 		{5DADB039-61A9-408C-9CB1-316063A510B2}.Release|x64.Build.0 = Release|Any CPU
 		{5DADB039-61A9-408C-9CB1-316063A510B2}.Release|x86.ActiveCfg = Release|Any CPU
 		{5DADB039-61A9-408C-9CB1-316063A510B2}.Release|x86.Build.0 = Release|Any CPU
-		{4EDE5ED0-F9B2-4DC4-95E2-22A72F90BC8E}.Debug|Any CPU.ActiveCfg = Debug|Win32
-		{4EDE5ED0-F9B2-4DC4-95E2-22A72F90BC8E}.Debug|x64.ActiveCfg = Debug|x64
-		{4EDE5ED0-F9B2-4DC4-95E2-22A72F90BC8E}.Debug|x64.Build.0 = Debug|x64
-		{4EDE5ED0-F9B2-4DC4-95E2-22A72F90BC8E}.Debug|x86.ActiveCfg = Debug|Win32
-		{4EDE5ED0-F9B2-4DC4-95E2-22A72F90BC8E}.Debug|x86.Build.0 = Debug|Win32
-		{4EDE5ED0-F9B2-4DC4-95E2-22A72F90BC8E}.Release|Any CPU.ActiveCfg = Release|Win32
-		{4EDE5ED0-F9B2-4DC4-95E2-22A72F90BC8E}.Release|x64.ActiveCfg = Release|x64
-		{4EDE5ED0-F9B2-4DC4-95E2-22A72F90BC8E}.Release|x64.Build.0 = Release|x64
-		{4EDE5ED0-F9B2-4DC4-95E2-22A72F90BC8E}.Release|x86.ActiveCfg = Release|Win32
-		{4EDE5ED0-F9B2-4DC4-95E2-22A72F90BC8E}.Release|x86.Build.0 = Release|Win32
 		{78561ADB-6882-4C8B-824E-B9438BC8E28E}.Debug|Any CPU.ActiveCfg = Debug|Win32
 		{78561ADB-6882-4C8B-824E-B9438BC8E28E}.Debug|x64.ActiveCfg = Debug|x64
 		{78561ADB-6882-4C8B-824E-B9438BC8E28E}.Debug|x64.Build.0 = Debug|x64
