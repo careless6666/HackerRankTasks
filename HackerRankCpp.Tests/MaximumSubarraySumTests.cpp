@@ -1,6 +1,6 @@
 #include "stdafx.h"
 #include "CppUnitTest.h"
-#include "..\HackerRankCpp\MaximumSubarraySum.h"
+#include "MaximumSubarraySum.h"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
